@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63822BE9224B42ED0097C23E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63822BE8224B42ED0097C23E /* AppDelegate.m */; };
+		63822BEC224B42ED0097C23E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63822BEB224B42ED0097C23E /* ViewController.m */; };
+		63822BEF224B42ED0097C23E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63822BED224B42ED0097C23E /* Main.storyboard */; };
+		63822BF1224B42ED0097C23E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63822BF0224B42ED0097C23E /* Assets.xcassets */; };
+		63822BF4224B42ED0097C23E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63822BF2224B42ED0097C23E /* LaunchScreen.storyboard */; };
+		63822BF7224B42ED0097C23E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63822BF6224B42ED0097C23E /* main.m */; };
+		63822C01224B42ED0097C23E /* MiPushTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63822C00224B42ED0097C23E /* MiPushTestDemoTests.m */; };
+		63822C0C224B42EE0097C23E /* MiPushTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63822C0B224B42EE0097C23E /* MiPushTestDemoUITests.m */; };
+		63822C23224B62D40097C23E /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63822C22224B62D40097C23E /* UserNotifications.framework */; };
+		63822C25224B62DC0097C23E /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63822C24224B62DC0097C23E /* libresolv.tbd */; };
+		63822C27224B62E40097C23E /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63822C26224B62E40097C23E /* libxml2.tbd */; };
+		63822C29224B62FA0097C23E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63822C28224B62FA0097C23E /* libz.tbd */; };
+		63822C2B224B63050097C23E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63822C2A224B63050097C23E /* SystemConfiguration.framework */; };
+		63822C2D224B630D0097C23E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63822C2C224B630D0097C23E /* MobileCoreServices.framework */; };
+		63822C2F224B63140097C23E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63822C2E224B63140097C23E /* CFNetwork.framework */; };
+		63822C31224B631E0097C23E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63822C30224B631E0097C23E /* CoreTelephony.framework */; };
+		792FC7ED2250C55E00463185 /* NSObject+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 792FC7EC2250C55E00463185 /* NSObject+runtime.m */; };
+		792FC7F02250D97E00463185 /* AppDelegate+push.m in Sources */ = {isa = PBXBuildFile; fileRef = 792FC7EF2250D97E00463185 /* AppDelegate+push.m */; };
+		792FC8232250DA2B00463185 /* libMiPushSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 792FC81F2250DA2B00463185 /* libMiPushSDK.a */; };
+		792FC8242250DA2B00463185 /* WYAPushHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 792FC8212250DA2B00463185 /* WYAPushHelper.m */; };
+		79AA97192250E23C006886C7 /* UIImage+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AA97182250E23C006886C7 /* UIImage+Swizzle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63822BFD224B42ED0097C23E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63822BDC224B42ED0097C23E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63822BE3224B42ED0097C23E;
+			remoteInfo = MiPushTestDemo;
+		};
+		63822C08224B42EE0097C23E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63822BDC224B42ED0097C23E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63822BE3224B42ED0097C23E;
+			remoteInfo = MiPushTestDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63822BE4224B42ED0097C23E /* MiPushTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiPushTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63822BE7224B42ED0097C23E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63822BE8224B42ED0097C23E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63822BEA224B42ED0097C23E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63822BEB224B42ED0097C23E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63822BEE224B42ED0097C23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63822BF0224B42ED0097C23E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63822BF3224B42ED0097C23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63822BF5224B42ED0097C23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63822BF6224B42ED0097C23E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63822BFC224B42ED0097C23E /* MiPushTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiPushTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63822C00224B42ED0097C23E /* MiPushTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiPushTestDemoTests.m; sourceTree = "<group>"; };
+		63822C02224B42ED0097C23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63822C07224B42EE0097C23E /* MiPushTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiPushTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63822C0B224B42EE0097C23E /* MiPushTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiPushTestDemoUITests.m; sourceTree = "<group>"; };
+		63822C0D224B42EE0097C23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63822C22224B62D40097C23E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		63822C24224B62DC0097C23E /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		63822C26224B62E40097C23E /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		63822C28224B62FA0097C23E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		63822C2A224B63050097C23E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		63822C2C224B630D0097C23E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		63822C2E224B63140097C23E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		63822C30224B631E0097C23E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		63822C32224B63350097C23E /* MiPushTestDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MiPushTestDemo.entitlements; sourceTree = "<group>"; };
+		792FC7EB2250C55E00463185 /* NSObject+runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+runtime.h"; sourceTree = "<group>"; };
+		792FC7EC2250C55E00463185 /* NSObject+runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+runtime.m"; sourceTree = "<group>"; };
+		792FC7EE2250D97E00463185 /* AppDelegate+push.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+push.h"; sourceTree = "<group>"; };
+		792FC7EF2250D97E00463185 /* AppDelegate+push.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+push.m"; sourceTree = "<group>"; };
+		792FC81A2250DA2B00463185 /* WYAPushHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAPushHelper.h; sourceTree = "<group>"; };
+		792FC81F2250DA2B00463185 /* libMiPushSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMiPushSDK.a; sourceTree = "<group>"; };
+		792FC8202250DA2B00463185 /* MiPushSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiPushSDK.h; sourceTree = "<group>"; };
+		792FC8212250DA2B00463185 /* WYAPushHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAPushHelper.m; sourceTree = "<group>"; };
+		79AA97172250E23C006886C7 /* UIImage+Swizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Swizzle.h"; sourceTree = "<group>"; };
+		79AA97182250E23C006886C7 /* UIImage+Swizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Swizzle.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63822BE1224B42ED0097C23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63822C31224B631E0097C23E /* CoreTelephony.framework in Frameworks */,
+				63822C2F224B63140097C23E /* CFNetwork.framework in Frameworks */,
+				792FC8232250DA2B00463185 /* libMiPushSDK.a in Frameworks */,
+				63822C2D224B630D0097C23E /* MobileCoreServices.framework in Frameworks */,
+				63822C2B224B63050097C23E /* SystemConfiguration.framework in Frameworks */,
+				63822C29224B62FA0097C23E /* libz.tbd in Frameworks */,
+				63822C27224B62E40097C23E /* libxml2.tbd in Frameworks */,
+				63822C25224B62DC0097C23E /* libresolv.tbd in Frameworks */,
+				63822C23224B62D40097C23E /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63822BF9224B42ED0097C23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63822C04224B42EE0097C23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63822BDB224B42ED0097C23E = {
+			isa = PBXGroup;
+			children = (
+				63822BE6224B42ED0097C23E /* MiPushTestDemo */,
+				63822BFF224B42ED0097C23E /* MiPushTestDemoTests */,
+				63822C0A224B42EE0097C23E /* MiPushTestDemoUITests */,
+				63822BE5224B42ED0097C23E /* Products */,
+				63822C21224B62D40097C23E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63822BE5224B42ED0097C23E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63822BE4224B42ED0097C23E /* MiPushTestDemo.app */,
+				63822BFC224B42ED0097C23E /* MiPushTestDemoTests.xctest */,
+				63822C07224B42EE0097C23E /* MiPushTestDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63822BE6224B42ED0097C23E /* MiPushTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				792FC8192250DA2B00463185 /* WYAPushHelper */,
+				63822C32224B63350097C23E /* MiPushTestDemo.entitlements */,
+				63822BE7224B42ED0097C23E /* AppDelegate.h */,
+				63822BE8224B42ED0097C23E /* AppDelegate.m */,
+				63822BEA224B42ED0097C23E /* ViewController.h */,
+				63822BEB224B42ED0097C23E /* ViewController.m */,
+				63822BED224B42ED0097C23E /* Main.storyboard */,
+				63822BF0224B42ED0097C23E /* Assets.xcassets */,
+				63822BF2224B42ED0097C23E /* LaunchScreen.storyboard */,
+				63822BF5224B42ED0097C23E /* Info.plist */,
+				63822BF6224B42ED0097C23E /* main.m */,
+				792FC7EB2250C55E00463185 /* NSObject+runtime.h */,
+				792FC7EC2250C55E00463185 /* NSObject+runtime.m */,
+				792FC7EE2250D97E00463185 /* AppDelegate+push.h */,
+				792FC7EF2250D97E00463185 /* AppDelegate+push.m */,
+				79AA97172250E23C006886C7 /* UIImage+Swizzle.h */,
+				79AA97182250E23C006886C7 /* UIImage+Swizzle.m */,
+			);
+			path = MiPushTestDemo;
+			sourceTree = "<group>";
+		};
+		63822BFF224B42ED0097C23E /* MiPushTestDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				63822C00224B42ED0097C23E /* MiPushTestDemoTests.m */,
+				63822C02224B42ED0097C23E /* Info.plist */,
+			);
+			path = MiPushTestDemoTests;
+			sourceTree = "<group>";
+		};
+		63822C0A224B42EE0097C23E /* MiPushTestDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63822C0B224B42EE0097C23E /* MiPushTestDemoUITests.m */,
+				63822C0D224B42EE0097C23E /* Info.plist */,
+			);
+			path = MiPushTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		63822C21224B62D40097C23E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63822C30224B631E0097C23E /* CoreTelephony.framework */,
+				63822C2E224B63140097C23E /* CFNetwork.framework */,
+				63822C2C224B630D0097C23E /* MobileCoreServices.framework */,
+				63822C2A224B63050097C23E /* SystemConfiguration.framework */,
+				63822C28224B62FA0097C23E /* libz.tbd */,
+				63822C26224B62E40097C23E /* libxml2.tbd */,
+				63822C24224B62DC0097C23E /* libresolv.tbd */,
+				63822C22224B62D40097C23E /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		792FC8192250DA2B00463185 /* WYAPushHelper */ = {
+			isa = PBXGroup;
+			children = (
+				792FC81B2250DA2B00463185 /* MipushSDK */,
+				792FC81A2250DA2B00463185 /* WYAPushHelper.h */,
+				792FC8212250DA2B00463185 /* WYAPushHelper.m */,
+			);
+			path = WYAPushHelper;
+			sourceTree = "<group>";
+		};
+		792FC81B2250DA2B00463185 /* MipushSDK */ = {
+			isa = PBXGroup;
+			children = (
+				792FC81F2250DA2B00463185 /* libMiPushSDK.a */,
+				792FC8202250DA2B00463185 /* MiPushSDK.h */,
+			);
+			path = MipushSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63822BE3224B42ED0097C23E /* MiPushTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63822C10224B42EE0097C23E /* Build configuration list for PBXNativeTarget "MiPushTestDemo" */;
+			buildPhases = (
+				63822BE0224B42ED0097C23E /* Sources */,
+				63822BE1224B42ED0097C23E /* Frameworks */,
+				63822BE2224B42ED0097C23E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiPushTestDemo;
+			productName = MiPushTestDemo;
+			productReference = 63822BE4224B42ED0097C23E /* MiPushTestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63822BFB224B42ED0097C23E /* MiPushTestDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63822C13224B42EE0097C23E /* Build configuration list for PBXNativeTarget "MiPushTestDemoTests" */;
+			buildPhases = (
+				63822BF8224B42ED0097C23E /* Sources */,
+				63822BF9224B42ED0097C23E /* Frameworks */,
+				63822BFA224B42ED0097C23E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63822BFE224B42ED0097C23E /* PBXTargetDependency */,
+			);
+			name = MiPushTestDemoTests;
+			productName = MiPushTestDemoTests;
+			productReference = 63822BFC224B42ED0097C23E /* MiPushTestDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63822C06224B42EE0097C23E /* MiPushTestDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63822C16224B42EE0097C23E /* Build configuration list for PBXNativeTarget "MiPushTestDemoUITests" */;
+			buildPhases = (
+				63822C03224B42EE0097C23E /* Sources */,
+				63822C04224B42EE0097C23E /* Frameworks */,
+				63822C05224B42EE0097C23E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63822C09224B42EE0097C23E /* PBXTargetDependency */,
+			);
+			name = MiPushTestDemoUITests;
+			productName = MiPushTestDemoUITests;
+			productReference = 63822C07224B42EE0097C23E /* MiPushTestDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63822BDC224B42ED0097C23E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = weiyian;
+				TargetAttributes = {
+					63822BE3224B42ED0097C23E = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					63822BFB224B42ED0097C23E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 63822BE3224B42ED0097C23E;
+					};
+					63822C06224B42EE0097C23E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 63822BE3224B42ED0097C23E;
+					};
+				};
+			};
+			buildConfigurationList = 63822BDF224B42ED0097C23E /* Build configuration list for PBXProject "MiPushTestDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63822BDB224B42ED0097C23E;
+			productRefGroup = 63822BE5224B42ED0097C23E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63822BE3224B42ED0097C23E /* MiPushTestDemo */,
+				63822BFB224B42ED0097C23E /* MiPushTestDemoTests */,
+				63822C06224B42EE0097C23E /* MiPushTestDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63822BE2224B42ED0097C23E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63822BF4224B42ED0097C23E /* LaunchScreen.storyboard in Resources */,
+				63822BF1224B42ED0097C23E /* Assets.xcassets in Resources */,
+				63822BEF224B42ED0097C23E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63822BFA224B42ED0097C23E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63822C05224B42EE0097C23E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63822BE0224B42ED0097C23E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AA97192250E23C006886C7 /* UIImage+Swizzle.m in Sources */,
+				63822BEC224B42ED0097C23E /* ViewController.m in Sources */,
+				792FC7F02250D97E00463185 /* AppDelegate+push.m in Sources */,
+				792FC8242250DA2B00463185 /* WYAPushHelper.m in Sources */,
+				792FC7ED2250C55E00463185 /* NSObject+runtime.m in Sources */,
+				63822BF7224B42ED0097C23E /* main.m in Sources */,
+				63822BE9224B42ED0097C23E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63822BF8224B42ED0097C23E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63822C01224B42ED0097C23E /* MiPushTestDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63822C03224B42EE0097C23E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63822C0C224B42EE0097C23E /* MiPushTestDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63822BFE224B42ED0097C23E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63822BE3224B42ED0097C23E /* MiPushTestDemo */;
+			targetProxy = 63822BFD224B42ED0097C23E /* PBXContainerItemProxy */;
+		};
+		63822C09224B42EE0097C23E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63822BE3224B42ED0097C23E /* MiPushTestDemo */;
+			targetProxy = 63822C08224B42EE0097C23E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63822BED224B42ED0097C23E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63822BEE224B42ED0097C23E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63822BF2224B42ED0097C23E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63822BF3224B42ED0097C23E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63822C0E224B42EE0097C23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63822C0F224B42EE0097C23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63822C11224B42EE0097C23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MiPushTestDemo/MiPushTestDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5265ZP7QT;
+				INFOPLIST_FILE = MiPushTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MiPushTestDemo/MipushSDK",
+					"$(PROJECT_DIR)/MiPushTestDemo/PushHelper/MipushSDK",
+					"$(PROJECT_DIR)/MiPushTestDemo/WYAPushHelper/MipushSDK",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MiSDKRun = debug;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiyian.material;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		63822C12224B42EE0097C23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MiPushTestDemo/MiPushTestDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5265ZP7QT;
+				INFOPLIST_FILE = MiPushTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MiPushTestDemo/MipushSDK",
+					"$(PROJECT_DIR)/MiPushTestDemo/PushHelper/MipushSDK",
+					"$(PROJECT_DIR)/MiPushTestDemo/WYAPushHelper/MipushSDK",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MiSDKRun = online;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiyian.material;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		63822C14224B42EE0097C23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5265ZP7QT;
+				INFOPLIST_FILE = MiPushTestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XFlee.MiPushTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiPushTestDemo.app/MiPushTestDemo";
+			};
+			name = Debug;
+		};
+		63822C15224B42EE0097C23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5265ZP7QT;
+				INFOPLIST_FILE = MiPushTestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XFlee.MiPushTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiPushTestDemo.app/MiPushTestDemo";
+			};
+			name = Release;
+		};
+		63822C17224B42EE0097C23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5265ZP7QT;
+				INFOPLIST_FILE = MiPushTestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XFlee.MiPushTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiPushTestDemo;
+			};
+			name = Debug;
+		};
+		63822C18224B42EE0097C23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5265ZP7QT;
+				INFOPLIST_FILE = MiPushTestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XFlee.MiPushTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiPushTestDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63822BDF224B42ED0097C23E /* Build configuration list for PBXProject "MiPushTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63822C0E224B42EE0097C23E /* Debug */,
+				63822C0F224B42EE0097C23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63822C10224B42EE0097C23E /* Build configuration list for PBXNativeTarget "MiPushTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63822C11224B42EE0097C23E /* Debug */,
+				63822C12224B42EE0097C23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63822C13224B42EE0097C23E /* Build configuration list for PBXNativeTarget "MiPushTestDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63822C14224B42EE0097C23E /* Debug */,
+				63822C15224B42EE0097C23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63822C16224B42EE0097C23E /* Build configuration list for PBXNativeTarget "MiPushTestDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63822C17224B42EE0097C23E /* Debug */,
+				63822C18224B42EE0097C23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63822BDC224B42ED0097C23E /* Project object */;
+}
