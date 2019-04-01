@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "UIImage+Swizzle.h"
 @interface ViewController ()
 
 @end

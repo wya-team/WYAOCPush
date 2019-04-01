@@ -23,11 +23,8 @@
 		63822C2D224B630D0097C23E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63822C2C224B630D0097C23E /* MobileCoreServices.framework */; };
 		63822C2F224B63140097C23E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63822C2E224B63140097C23E /* CFNetwork.framework */; };
 		63822C31224B631E0097C23E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63822C30224B631E0097C23E /* CoreTelephony.framework */; };
-		792FC7ED2250C55E00463185 /* NSObject+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 792FC7EC2250C55E00463185 /* NSObject+runtime.m */; };
-		792FC7F02250D97E00463185 /* AppDelegate+push.m in Sources */ = {isa = PBXBuildFile; fileRef = 792FC7EF2250D97E00463185 /* AppDelegate+push.m */; };
 		792FC8232250DA2B00463185 /* libMiPushSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 792FC81F2250DA2B00463185 /* libMiPushSDK.a */; };
 		792FC8242250DA2B00463185 /* WYAPushHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 792FC8212250DA2B00463185 /* WYAPushHelper.m */; };
-		79AA97192250E23C006886C7 /* UIImage+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AA97182250E23C006886C7 /* UIImage+Swizzle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,16 +70,10 @@
 		63822C2E224B63140097C23E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		63822C30224B631E0097C23E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		63822C32224B63350097C23E /* MiPushTestDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MiPushTestDemo.entitlements; sourceTree = "<group>"; };
-		792FC7EB2250C55E00463185 /* NSObject+runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+runtime.h"; sourceTree = "<group>"; };
-		792FC7EC2250C55E00463185 /* NSObject+runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+runtime.m"; sourceTree = "<group>"; };
-		792FC7EE2250D97E00463185 /* AppDelegate+push.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+push.h"; sourceTree = "<group>"; };
-		792FC7EF2250D97E00463185 /* AppDelegate+push.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+push.m"; sourceTree = "<group>"; };
 		792FC81A2250DA2B00463185 /* WYAPushHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAPushHelper.h; sourceTree = "<group>"; };
 		792FC81F2250DA2B00463185 /* libMiPushSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMiPushSDK.a; sourceTree = "<group>"; };
 		792FC8202250DA2B00463185 /* MiPushSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiPushSDK.h; sourceTree = "<group>"; };
 		792FC8212250DA2B00463185 /* WYAPushHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAPushHelper.m; sourceTree = "<group>"; };
-		79AA97172250E23C006886C7 /* UIImage+Swizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Swizzle.h"; sourceTree = "<group>"; };
-		79AA97182250E23C006886C7 /* UIImage+Swizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Swizzle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,12 +145,6 @@
 				63822BF2224B42ED0097C23E /* LaunchScreen.storyboard */,
 				63822BF5224B42ED0097C23E /* Info.plist */,
 				63822BF6224B42ED0097C23E /* main.m */,
-				792FC7EB2250C55E00463185 /* NSObject+runtime.h */,
-				792FC7EC2250C55E00463185 /* NSObject+runtime.m */,
-				792FC7EE2250D97E00463185 /* AppDelegate+push.h */,
-				792FC7EF2250D97E00463185 /* AppDelegate+push.m */,
-				79AA97172250E23C006886C7 /* UIImage+Swizzle.h */,
-				79AA97182250E23C006886C7 /* UIImage+Swizzle.m */,
 			);
 			path = MiPushTestDemo;
 			sourceTree = "<group>";
@@ -351,11 +336,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79AA97192250E23C006886C7 /* UIImage+Swizzle.m in Sources */,
 				63822BEC224B42ED0097C23E /* ViewController.m in Sources */,
-				792FC7F02250D97E00463185 /* AppDelegate+push.m in Sources */,
 				792FC8242250DA2B00463185 /* WYAPushHelper.m in Sources */,
-				792FC7ED2250C55E00463185 /* NSObject+runtime.m in Sources */,
 				63822BF7224B42ED0097C23E /* main.m in Sources */,
 				63822BE9224B42ED0097C23E /* AppDelegate.m in Sources */,
 			);
