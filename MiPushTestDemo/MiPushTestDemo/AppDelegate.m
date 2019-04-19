@@ -19,16 +19,16 @@ UNUserNotificationCenterDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 /// ----------------------- 需要拷贝的代码 -----------------------
-    [self configMiPush:launchOptions];
+    [self configMiPush:launchOptions type:3];
 
     return YES;
 }
 
 // 配置小米推送
-- (void)configMiPush:(NSDictionary *)launchOptions{
+- (void)configMiPush:(NSDictionary *)launchOptions type:(UIRemoteNotificationType)type{
     
     // type 0:none 1:badge 2:sound 3:alert
-    [MiPushSDK registerMiPush:self type:3 connect:NO];
+    [MiPushSDK registerMiPush:self type:type connect:NO];
     
     // 点击通知打开app处理逻辑
     NSDictionary* userInfo = [launchOptions objectForKey:UIApplicationLaunchOptionsRemoteNotificationKey];
