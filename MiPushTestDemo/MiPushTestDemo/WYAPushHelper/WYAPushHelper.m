@@ -11,7 +11,7 @@ static WYAPushHelper *_shareInfo = nil;
 @interface WYAPushHelper ()
 
 /**
- 检测根控制器是否已被初始化完成
+ 是否需要检测根控制器是否已被初始化完成，去进行点击通知进入app完成相关逻辑处理（不需要，则可进行本地存储或者其他与控制器无关的逻辑处理）
  */
 @property (nonatomic, assign) BOOL needCheckRootViewController;
 
