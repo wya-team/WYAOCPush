@@ -39,8 +39,8 @@ static WYAPushHelper *_shareInfo = nil;
 }
 
 + (void)configMiPush:(NSDictionary *)launchOptions{
-    // type 0:none 1:badge 2:sound 3:alert
-    [MiPushSDK registerMiPush:[self shareManager] type:3 connect:NO];
+    // type 0:none 1:badge 2:sound 4:alert，以上为位运算，可以累加，比如需要角标、声音、横幅，则为7
+    [MiPushSDK registerMiPush:[self shareManager] type:7 connect:NO];
 }
 
 //配置小米推送

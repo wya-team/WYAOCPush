@@ -19,7 +19,7 @@ UNUserNotificationCenterDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 /// ----------------------- 需要拷贝的代码 -----------------------
-    [self configMiPush:launchOptions type:3];
+    [self configMiPush:launchOptions type:7];
 
     return YES;
 }
@@ -27,7 +27,7 @@ UNUserNotificationCenterDelegate
 // 配置小米推送
 - (void)configMiPush:(NSDictionary *)launchOptions type:(UIRemoteNotificationType)type{
     
-    // type 0:none 1:badge 2:sound 3:alert
+    // type 0:none 1:badge 2:sound 4:alert，以上为位运算，可以累加，比如需要角标、声音、横幅，则为7
     [MiPushSDK registerMiPush:self type:type connect:NO];
     
     // 点击通知打开app处理逻辑
